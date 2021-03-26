@@ -1,0 +1,22 @@
+{
+  "name": "music-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarek-janowski/music-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarek-janowski/music-api/issues"
+  },
+  "homepage": "https://github.com/jarek-janowski/music-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
