@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -6,6 +7,10 @@ const port = process.env.PORT || 4041;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
+
+
+//https://music-api-j95.herokuapp.com
 
 const songs = [{
     id: '1',
