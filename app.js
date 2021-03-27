@@ -16,7 +16,7 @@ const songs = [{
     id: '1',
     title: 'Yesterday (ak9 & MIDIcal Remix)', 
     artist: 'Borgeous & Zaeden',
-    audioUrl: 'https://www.dropbox.com/home/music?preview=Borgeous+%26+Zaeden+-+Yesterday+(ak9+%26+MIDIcal+Remix).mp3',
+    audioUrl: 'https://docs.google.com/uc?export=download&id=1NUIqDC6m4JwtEyTiHelZUIobm5zOzNuR',
     cover: 'https://i1.sndcdn.com/artworks-000147243714-60q2xq-t500x500.jpg',
     
 }]
