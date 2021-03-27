@@ -60,9 +60,9 @@ app.get('/song/:title', (req, res) =>{
 
 
 app.post('/addsong', (req, res) => {
-    const { title, artist } = req.body;
-    if(title && artist) {
-        songs.push({ title, artist});
+    const { artist, audioUrl, cover, id, title } = req.body;
+    if(artist && audioUrl && cover && id && title) {
+        songs.push({ artist, audioUrl, cover, id, title});
         res.json({ ok: true, songs});
     }
 })
