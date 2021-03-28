@@ -9,9 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-
 //https://music-api-j95.herokuapp.com
-//sdsf
 
 const songs = [
     {
@@ -163,7 +161,7 @@ const songs = [
     },
     {
         id: '22',
-        title: "Kill'em With Kindness", 
+        title: "Kill'em With Kindness (STVCKS Remix)", 
         artist: 'Selena Gomez',
         audioUrl: 'https://docs.google.com/uc?export=download&id=1f2WeZmLmOcCbn2TtlLOJ5gXg4Ku3KaB9',
         cover: 'https://i1.sndcdn.com/artworks-000171331256-3cmk6w-t500x500.jpg',
@@ -226,11 +224,151 @@ const songs = [
     },
     {
         id: '31',
-        title: "In The Morning(Matroda Remix)", 
+        title: "In The Morning (Matroda Remix)", 
         artist: 'ZHU',
         audioUrl: 'https://docs.google.com/uc?export=download&id=1SFT_eLkfjdH4aIgt2JrPoppHzn81rPoZ',
         cover: 'https://i1.sndcdn.com/artworks-000167495809-wsrmfg-t500x500.jpg',
     },
+    {
+        id: '32',
+        title: "Aftertaste", 
+        artist: 'Cosmo & Skoro',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=11TdxoM6syoRBmBKP4qPUcEnyze0HG4Ne',
+        cover: 'https://i1.sndcdn.com/avatars-000219585275-99i4ae-t500x500.jpg',
+    },
+    {
+        id: '33',
+        title: "Adventure of a Lifetime (CID Remix)", 
+        artist: 'Coldplay',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1J12YJQeR_FLCV8Xxypjx3l6YIHf-ZMlX',
+        cover: 'https://i1.sndcdn.com/artworks-000151030646-kglz9t-t500x500.jpg',
+    },
+    {
+        id: '34',
+        title: "Me, Myself & I (Mesto Remix)", 
+        artist: 'G-Eazy & Bebe Rexha',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1v6ElDTaDB7VysNiwUni0FRHUv-obWJCU',
+        cover: 'https://i1.sndcdn.com/artworks-000159969498-bkas3m-t500x500.jpg',
+    },
+    {
+        id: '35',
+        title: "High Life (Olin Batista Bootleg)", 
+        artist: 'Daft Punk',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1YIu1cCr5wEeJAis7BtvqgOQq2ju7LRlt',
+        cover: 'https://i1.sndcdn.com/avatars-000144971969-bjb71w-t500x500.jpg',
+    },
+    {
+        id: '36',
+        title: "Shadows (Claes Rosen Remix)", 
+        artist: 'Pryda',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=16A-w8ZHBt_-sJn7ICniaw3ndu4vMrssY',
+        cover: 'https://i1.sndcdn.com/artworks-000089365137-to28n5-t500x500.jpg',
+    },
+    {
+        id: '37',
+        title: "Dark River (Olin Batista Remix)", 
+        artist: 'Ingrosso',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1n0Q4Qa840-ZnglD1a21RrzMvn9cii6lf',
+        cover: 'https://i1.sndcdn.com/artworks-000202673885-awdvxx-t500x500.jpg',
+    },
+    {
+        id: '38',
+        title: "Not Going Home (Mesto Remix)", 
+        artist: 'DVBBS & CMC$',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1lxyvRExLLvJpFYpaEtIh6xqimRHee0Xp',
+        cover: 'https://i1.sndcdn.com/artworks-000216375816-384px0-t500x500.jpg',
+    },
+    {
+        id: '39',
+        title: "Leave The World Behind (Bottai Remix)", 
+        artist: 'Axwell & Ingrosso, Angello',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=10PjDunljbvVk3GdrIry1SWzcaoQfU33y',
+        cover: 'https://i1.sndcdn.com/artworks-000244994163-kfu382-t500x500.jpg',
+    },
+    {
+        id: '40',
+        title: "Radioactive (Vintage Culture & Religare Remix)", 
+        artist: 'Imagine Dragons',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1agWW8mdBLMI8nz10xJBF5MHRi1D3r8IC',
+        cover: 'https://i1.sndcdn.com/artworks-000252594680-6n15rs-t500x500.jpg',
+    },
+    {
+        id: '41',
+        title: "Be (BROHUG Edit)", 
+        artist: 'Steve Angello & Laidback Luke',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1KfbCbD_Aepy5f0FxePO4ytJgjGOrwRim',
+        cover: 'https://i1.sndcdn.com/artworks-000272589881-17436n-t500x500.jpg',
+    },
+    {
+        id: '42',
+        title: "Put Em High", 
+        artist: 'Tom Swoon',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1LESo5tSxzmtBVM7n1qsnKN4U4YFRjvsf',
+        cover: 'https://i1.sndcdn.com/artworks-000347982714-fdrxxj-t500x500.jpg',
+    },
+    {
+        id: '43',
+        title: "Put Em High", 
+        artist: 'Tom Swoon',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1LESo5tSxzmtBVM7n1qsnKN4U4YFRjvsf',
+        cover: 'https://i1.sndcdn.com/artworks-000347982714-fdrxxj-t500x500.jpg',
+    },
+    {
+        id: '44',
+        title: "Renegade Mastah (Paskal Remix)", 
+        artist: 'HI-LO',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=11RqzOKbFqUfCoCVZNAje1oMYDSkjheov',
+        cover: 'https://i1.sndcdn.com/artworks-000122493202-wgaepr-t500x500.jpg',
+    },
+    {
+        id: '45',
+        title: "Don't Mess With My Man (Charles J Rework)", 
+        artist: 'Lucy Pearl',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1vUFzu6gqZ_6-vbmw70VvtQ9q7mJCpYAG',
+        cover: 'https://i1.sndcdn.com/artworks-Dax2dfQ1ULzzHb47-g3WoFw-t500x500.jpg',
+    },
+    {
+        id: '46',
+        title: "King Kong vs The Sound Of Disco", 
+        artist: 'Oliver Heldens vs Joachim Garraud',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1i5ttFzfoXtOBq7jiAyZ6390_XE5Juex_',
+        cover: 'https://i1.sndcdn.com/artworks-000319140540-bwrlnc-t500x500.jpg',
+    },
+    {
+        id: '47',
+        title: "Destination Calabria (Snowx 2K19 Remix)", 
+        artist: 'Alex Gaudino',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1XKVk0yNG0Ub56y1GWQpTDTnH2Ifom1sR',
+        cover: 'https://i1.sndcdn.com/artworks-p1ycMhB7211h3REH-CjUTOA-t500x500.jpg',
+    },
+    {
+        id: '48',
+        title: "We Are Legends", 
+        artist: 'Martin Garrix',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1xqmHz8WnxGMLddGXabDK6NpBPCi_7ETV',
+        cover: 'https://i1.sndcdn.com/avatars-jeHVYviIFVN6NhwM-hrYWeg-t500x500.jpg',
+    },
+    {
+        id: '49',
+        title: "Pjanoo (Lucas & Steve Remix)", 
+        artist: 'Eric Prydz',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1nUNbIgOvyHblPDRW1xB4Ptpr6Fh1U7yr',
+        cover: 'https://i1.sndcdn.com/artworks-000557882265-ecql46-t500x500.jpg',
+    },
+    {
+        id: '50',
+        title: "Stay (Music Is The Answer) edit", 
+        artist: 'Kryder',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1Dpa3dhh-1Gb4mNoZnk2vVr_d-jUYDbpg',
+        cover: 'https://i1.sndcdn.com/artworks-000642587128-uo6aje-t500x500.jpg',
+    },
+    {
+        id: '51',
+        title: "Lose Control (eSQUIRE Classic Remix)", 
+        artist: 'Meduza',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=11lMhJRqCdvb7AKQIdhpWRwYW8RS3rf_M',
+        cover: 'https://i1.sndcdn.com/artworks-000641491177-gm3oi4-t500x500.jpg',
+    }
 ]
 
 app.get('/', (_, res) => {
