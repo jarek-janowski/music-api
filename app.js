@@ -14,6 +14,13 @@ app.use(cors());
 const songs = [
     {
         id: '1',
+        title: "Everyday (Netsky Remix VIP)", 
+        artist: 'Rusko',
+        audioUrl: 'https://docs.google.com/uc?export=download&id=1_ubZjc8HxO-ak3eo0jLcG5svr0-E6vR7',
+        cover: 'https://f4.bcbits.com/img/a2109517850_10.jpg',
+    },
+    {
+        id: '1',
         title: 'Yesterday (ak9 & MIDIcal Remix)', 
         artist: 'Borgeous & Zaeden',
         audioUrl: 'https://docs.google.com/uc?export=download&id=1d43Oum5loLRBijQAl8UbZjFGobIn9p7G',
